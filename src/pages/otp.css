@@ -1,0 +1,23 @@
+/* Your default styles */
+.otp div input {
+    width: 3.4rem !important;
+    height: 3.4rem;
+    margin: 0 1rem;
+    font-size: 2rem;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    font-size: 20px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+
+    /* You can adjust the breakpoint as needed */
+    .otp div input {
+        width: 2.6rem !important;
+        height: 2.6rem;
+        font-size: 16px;
+        margin: 5px;
+        /* Adjust font size for mobile */
+    }
+}

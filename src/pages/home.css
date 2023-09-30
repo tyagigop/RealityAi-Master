@@ -1,0 +1,15 @@
+.banner {
+    position: relative;
+    background: url('assets/banner2.png') center/cover;
+    height: 400px;
+    /* Adjust the height as needed */
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    color: white;
+}

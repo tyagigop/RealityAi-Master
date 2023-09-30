@@ -1,0 +1,8 @@
+.zoomable-image {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.zoomable-image.zoomed {
+  transform: scale(1.4); /* You can adjust the scale factor to control the zoom level */
+}
