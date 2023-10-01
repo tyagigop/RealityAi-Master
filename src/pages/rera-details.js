@@ -20,7 +20,7 @@ export default function ReraDetails() {
     };
 
     return (
-        <>
+        <div className="body-container">
             <header className="flex items-center justify-between bg-white p-4 shadow-lg shadow-slate-200/50">
                 <div className="flex items-center">
                 <a className="mr-4 ml-2 text-xl" onClick={() => handleNavigate("search")}>
@@ -35,7 +35,7 @@ export default function ReraDetails() {
                 </a>
                 </div>
             </header>
-            <div className="container mx-auto bg-gray-100 pt-4">
+            <div className="container mx-auto bg-gray">
                 <div className="mt-5 mb-5 ml-5">
                 <p><strong>Godrej Meridian</strong></p>
                 <p>Sector 106, Gurgaon, Haryana, India</p>
@@ -202,6 +202,6 @@ export default function ReraDetails() {
                     
 
             </div>
-        </>
+        </div>
     )
 }

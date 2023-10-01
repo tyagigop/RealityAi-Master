@@ -1,4 +1,37 @@
 
+@media (min-width: 576px) {
+    .body-container{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .body-container{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+@media (min-width: 992px) {
+    .body-container{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
+@media (min-width: 1200px) {
+    .body-container{
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+}
+@media (min-width: 1500px) {
+    .body-container{
+        margin-left: 500px;
+        margin-right: 500px;
+    }
+}
+
+
 .rera-new-title{
     font-size: 25px;
     font-weight: 450;

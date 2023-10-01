@@ -9,7 +9,7 @@ import React from "react";
 export default function ReraDetails() {
 
     return (
-        <>
+        <div className="body-container">
             
             <div className="rera-new-container mx-auto pt-4">
                 <div className="mt-5 mb-5 ml-5">
@@ -73,6 +73,6 @@ export default function ReraDetails() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

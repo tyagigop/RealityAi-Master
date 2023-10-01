@@ -16,7 +16,7 @@ export default function ReraDetails() {
     };
 
     return (
-        <>
+        <div className="body-container">
             <header className="flex items-center justify-between bg-white p-4 shadow-lg shadow-slate-200/50">
                 <div className="flex items-center">
                 <a className="mr-4 ml-2 text-xl" onClick={() => handleNavigate("search")}>
@@ -208,6 +208,6 @@ export default function ReraDetails() {
                     
 
             </div>
-        </>
+        </div>
     )
 }

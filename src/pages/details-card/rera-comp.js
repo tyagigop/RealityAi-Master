@@ -1,7 +1,7 @@
 import React from "react";
 export default function ReraDetails() {
     return (
-        <>
+        <div className="body-container">
             <div className="rera-new-container mx-auto pt-4">
             
 
@@ -97,6 +97,6 @@ export default function ReraDetails() {
                 </div>  
 
             </div>
-        </>
+        </div>
     )
 }
